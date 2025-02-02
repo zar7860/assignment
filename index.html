@@ -1,0 +1,72 @@
+export default function Flowchart() {
+  return (
+    <div className="flex justify-center items-center min-h-screen bg-gray-100">
+      <div className="border-2 border-gray-300 p-6 rounded-xl bg-white shadow-xl">
+        <h1 className="text-2xl font-bold text-center mb-6">Photography Portfolio Sitemap</h1>
+        <div className="grid gap-6">
+          {/* Homepage */}
+          <div className="flex flex-col items-center">
+            <div className="font-bold text-lg bg-blue-100 px-4 py-2 rounded-full">Homepage</div>
+            <div className="grid grid-cols-1 gap-3 mt-4">
+              <div className="bg-green-100 px-4 py-2 rounded-full">Featured Photo Slideshow</div>
+              <div className="bg-green-100 px-4 py-2 rounded-full">welcome to this website we will explore new things here</div>
+              <div className="bg-green-100 px-4 py-2 rounded-full">Navigation Menu</div>
+              <div className="bg-green-100 px-4 py-2 rounded-full">Link to Contact</div>
+            </div>
+          </div>
+
+          {/* Gallery */}
+          <div className="flex flex-col items-center">
+            <div className="font-bold text-lg bg-blue-100 px-4 py-2 rounded-full">Gallery</div>
+            <div className="grid grid-cols-1 gap-3 mt-4">
+              <div className="bg-green-100 px-4 py-2 rounded-full">Portraits</div>
+              <div className="bg-green-100 px-4 py-2 rounded-full">Weddings</div>
+              <div className="bg-green-100 px-4 py-2 rounded-full">Landscapes</div>
+            </div>
+          </div>
+
+          {/* About Me */}
+          <div className="flex flex-col items-center">
+            <div className="font-bold text-lg bg-blue-100 px-4 py-2 rounded-full">i am a photographer and having 10 years experience </div>
+            <div className="grid grid-cols-1 gap-3 mt-4">
+              <div className="bg-green-100 px-4 py-2 rounded-full">Biography</div>
+              <div className="bg-green-100 px-4 py-2 rounded-full">Personal Story</div>
+              <div className="bg-green-100 px-4 py-2 rounded-full">Testimonials</div>
+            </div>
+          </div>
+
+          {/* Services */}
+          <div className="flex flex-col items-center">
+            <div className="font-bold text-lg bg-blue-100 px-4 py-2 rounded-full">Services</div>
+            <div className="grid grid-cols-1 gap-3 mt-4">
+              <div className="bg-green-100 px-4 py-2 rounded-full">Session Types</div>
+              <div className="bg-green-100 px-4 py-2 rounded-full">Packages & Pricing</div>
+              <div className="bg-green-100 px-4 py-2 rounded-full">FAQs</div>
+            </div>
+          </div>
+
+          {/* Contact */}
+          <div className="flex flex-col items-center">
+            <div className="font-bold text-lg bg-blue-100 px-4 py-2 rounded-full">Contact</div>
+            <div className="grid grid-cols-1 gap-3 mt-4">
+              <div className="bg-green-100 px-4 py-2 rounded-full">Contact Form</div>
+              <div className="bg-green-100 px-4 py-2 rounded-full">Instagram</div>
+              <div className="bg-green-100 px-4 py-2 rounded-full">Facebook</div>
+              <div className="bg-green-100 px-4 py-2 rounded-full">Email</div>
+            </div>
+          </div>
+
+          {/* Blog (Optional) */}
+          <div className="flex flex-col items-center">
+            <div className="font-bold text-lg bg-blue-100 px-4 py-2 rounded-full">Blog</div>
+            <div className="grid grid-cols-1 gap-3 mt-4">
+              <div className="bg-green-100 px-4 py-2 rounded-full">Photography Tips</div>
+              <div className="bg-green-100 px-4 py-2 rounded-full">Recent Sessions</div>
+              <div className="bg-green-100 px-4 py-2 rounded-full">Behind-the-Scenes Stories</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
